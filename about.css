@@ -1,0 +1,18 @@
+.well1 {
+  padding-top :25px;
+  padding-bottom :25px;
+  background-color: beige;
+}
+.well1 .write-up {
+  font-size: 14px !important;
+  line-height: 28px !important;
+  font-family: Raleway !important;
+  padding-top :35px;
+}
+.well1 .write-up a {
+  font-size: 16px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
