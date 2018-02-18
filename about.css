@@ -16,3 +16,20 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
 }
+
+@media(max-width: 480px) {
+   .off1 {
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .write-up {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media(min-width: 1200px) {
+  .write-up {
+    padding-top: 75px !important;
+  }
+}

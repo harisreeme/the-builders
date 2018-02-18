@@ -11724,7 +11724,7 @@
 		@media only screen and (min-width: 640px)  {
 
 			.nz-slick-item {
-				padding-left: 30px;
+				padding-left: 15px;
 				padding-right: 30px;
 			}
 
@@ -12071,7 +12071,7 @@
 
 			.nz-content-box.version2 > .nz-box {
 				position: relative;
-				padding-left: 30px;
+				padding-left: 15px;
 				padding-right: 30px;
 			}
 
@@ -12399,7 +12399,7 @@
 			}
 
 			.loop.width-true .shop-layout {
-				padding-left: 30px;
+				padding-left: 15px;
 				padding-right: 30px;
 			}
 
@@ -13346,7 +13346,7 @@
 
 			.desk.stuck-boxed-true:not(.active) .header-top,
 			.desk.stuck-boxed-true:not(.active) .header-body {
-				padding-left: 30px;
+				padding-left: 15px;
 				padding-right: 30px;
 			}
 
@@ -14038,7 +14038,7 @@
 				text-transform: uppercase;
 				line-height: 40px;
 				vertical-align: top;
-				padding-left: 30px;
+				padding-left: 15px;
 			}
 			
 			.desk-menu > ul > li > a {
@@ -15625,3 +15625,18 @@
 #div_750e_18{height:30px}
 #span_750e_14{color:#c0c0c1;font-size:14px;line-height:28px;}
 #div_750e_19{height:25px}
+
+
+@media(max-width: 480px) {
+	.widget_nz_recent_entries, .widget_recent_projects, .footer-menu {
+		display: none;
+	}
+}
+
+.tparrows, .tp-rightarrow, .tp-arr-allwrapper {
+	display: none;
+}
+
+.tparrows{
+	visibility : inherit !important;
+}
