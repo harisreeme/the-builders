@@ -1,6 +1,13 @@
+.bridge{
+    padding-bottom: 25px;
+    background-color: beige;
+}
 .well1 {
   padding-top :25px;
   padding-bottom :25px;
+  background-color: #FFFFFF;
+}
+.normal {
   background-color: beige;
 }
 .well1 .write-up {
